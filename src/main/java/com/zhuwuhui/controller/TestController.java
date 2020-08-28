@@ -9,6 +9,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class TestController {
 
+    /**
+     *猪无悔测试
+     * */
     @RequestMapping("/login")
     public String login(){
         return "login";
