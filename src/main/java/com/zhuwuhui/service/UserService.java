@@ -9,4 +9,8 @@ import java.util.List;
 public interface UserService {
 
     List<User> getUserInfo();
+
+    boolean checkUser(String userName, String password);
+
+    User getUserByLoginName(String userName);
 }
