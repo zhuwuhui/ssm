@@ -11,7 +11,5 @@ public class Test {
         list.add("段云卿");
         System.out.println(list);
         System.out.println(123);
-        System.out.println(123);
-        System.out.println(123);
     }
 }
