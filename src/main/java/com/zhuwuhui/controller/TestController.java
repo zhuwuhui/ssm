@@ -12,7 +12,7 @@ public class TestController {
     /**
      *猪无悔测试
      * */
-    @RequestMapping("/login")
+    @RequestMapping("/user")
     public String login(){
         return "login";
     }
